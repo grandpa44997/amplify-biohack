@@ -53,3 +53,40 @@ export default {
   }
 }
 </script>
+
+---
+
+## Props, Events, and Slots
+
+Atualmente, este componente não expõe nenhuma `prop`, `event` ou `slot` personalizável. Qualquer customização deve ser feita diretamente no arquivo `AppHeader.vue`.
+
+---
+
+## Styling Information
+
+Os estilos aplicados usam CSS global ou scoped (via `<style lang="less">`):
+
+- Fonte: Avenir, Helvetica, Arial, sans-serif.
+- Cor de texto: `#2c3e50`
+- Cor do link ativo: `#42b983`
+
+Você pode editar esses estilos diretamente no bloco `<style>` do componente.
+
+---
+
+## Accessibility Considerations
+
+- Usa HTML semântico, como `<nav>` e listas (`<ul>`, `<li>`), quando aplicável.
+- Garante contraste adequado entre o texto e o fundo.
+- Botões e links interativos devem conter `aria-labels` ou outros atributos para melhorar a navegação com tecnologias assistivas.
+
+---
+
+## Related Components
+
+- `AppFooter.vue`: geralmente usado em conjunto com o cabeçalho para layout consistente.
+- `AuthNav.vue`: pode ser incluído no `AppHeader` para controlar autenticação (login/logout).
+
+---
+
+_Last updated: April 11, 2025_
